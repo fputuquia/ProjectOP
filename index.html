@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="canonical" href="https://amp.dev/documentation/guides-and-tutorials/start/create/basic_markup/">
+    <script async custom-element="amp-vimeo" src="https://cdn.ampproject.org/v0/amp-vimeo-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project OP</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style amp-boilerplate>
+        body {
+            -webkit-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -moz-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            -ms-animation: -amp-start 8s steps(1, end) 0s 1 normal both;
+            animation: -amp-start 8s steps(1, end) 0s 1 normal both
+        }
+
+        @-webkit-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-moz-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-ms-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @-o-keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+
+        @keyframes -amp-start {
+            from {
+                visibility: hidden
+            }
+
+            to {
+                visibility: visible
+            }
+        }
+    </style><noscript>
+        <style amp-boilerplate>
+            body {
+                -webkit-animation: none;
+                -moz-animation: none;
+                -ms-animation: none;
+                animation: none
+            }
+        </style>
+    </noscript>
+
+
+</head>
+
+<body>
+    <header class="op-header fixed-top bg-white">
+        <div class="container">
+            <div class="text-center text-lg-left">
+                <img src="img/logo.svg" alt="" class="pt-4 pb-4">
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid op-bg-yellow overflow-hidden op-marginTop">
+        <div class="row d-flex align-items-center justify-content-center">
+            <p class="op-titleTop pr-2 pr-lg-3 text-uppercase">I love this planet!</p>
+            <button type="button" class="btn op-btnOrange text-uppercase font-weight-bold">CLICK HERE!</button>
+        </div>
+    </div>
+
+    <div class="op-bg-banner pt-5 pl-2 pr-2 p-lg-5">
+        <div id="carouselExampleControls" class="carousel slide container" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div class=" carousel-item active">
+                    <div class="row">
+                        <div class="offset-lg-1 col-lg-5 text-center">
+                            <span class="op-color-white op-beforeTitle">That’s not soon enough!</span>
+                            <h1 class="op-color-yellow text-uppercase op-titleMain">There’s only one course of action</h1>
+                            <p class="op-color-white op-beforeTitle op-beforeTitleM">I don't know what you did, Fry, but once again, you
+                                screwed up!
+                            </p>
+                            <h2 class="op-color-yellow text-uppercase op-afterTitle">But you may have to!</h2>
+                        </div>
+                        <div class="offset-lg-1 col-lg-5">
+                            <amp-vimeo data-videoid="71423340" layout="responsive" width="487" height="293"></amp-vimeo>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center pt-5 pb-5 pb-lg-4">
+                            <button type="button" class="btn op-btnOrangeTwo text-uppercase font-weight-bold">CLICK
+                                HERE!</button>
+                        </div>
+                    </div>
+                </div> 
+
+            </div>
+ 
+
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row op-sections text-center pt-5 pb-5 ">
+            <div class="col-sm p-4">
+                <amp-img amp-fx="fade-in" class="mb-4" srcset="img/icon1.svg 320w" src="img/icon1.svg" width="76"
+                    height="90" alt="Headline for icon number one"></amp-img>
+                <h3>Headline for icon number one</h3>
+                <p>Text below icon one, text below <span class="font-weight-bold">icon one</span>, text below</p>
+            </div>
+            <div class="col-sm p-4">
+                <amp-img amp-fx="fade-in" class="mb-4" srcset="img/icon2.svg 320w" src="img/icon2.svg" width="76"
+                    height="90" alt="Headline for icon number two"></amp-img>
+                <h3>Headline for icon number two</h3>
+                <p>Text below icon two, text below <span class="font-weight-bold">icon two</span>, text below</p>
+            </div>
+            <div class="col-sm p-4">
+                <amp-img amp-fx="fade-in" class="mb-4" srcset="img/icon3.svg 320w" src="img/icon4.svg" width="76"
+                    height="90" alt="Headline for icon number three"></amp-img>
+                <h3>Headline for icon number three</h3>
+                <p>Text below icon three, text below <span class="font-weight-bold">icon three</span>, text below</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="op-bg-blueSky pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="owl-carousel owl-theme op-carouselStyle offset-1 offset-md-0 col-10 col-md-12">                    
+                    <div class="item pl-2 pr-2 pb-4">
+                        <h4>Title 1</h4>                        
+                        <img srcset="img/foto1.png 320w" src="img/foto1.png" alt="">
+                    </div>
+                    <div class="item pl-2 pr-2 pb-4">
+                        <h4>Title 2</h4>
+                        <img srcset="img/foto2.png 320w" src="img/foto2.png" alt="">
+                    </div>
+                    <div class="item pl-2 pr-2 pb-4">
+                        <h4>Title 3</h4>
+                        <img srcset="img/foto3.png 320w" src="img/foto3.png" alt="">
+                    </div>
+                    <div class="item pl-2 pr-2 pb-4">
+                        <h4>Title 4</h4>
+                        <img srcset="img/foto4.png 320w" src="img/foto4.png" alt="">
+
+                    </div>
+                 
+            </div>    
+            
+            
+            </div>
+            <div class="row">
+                <p class="op-textDescription text-center pl-4 pr-4 pt-lg-3">This opera’s as lousy as it is brilliant! Your lyrics <a
+                        href="https://www.google.com" target="_blank" class="op-link">lack subtlety</a>. You can’t just
+                    have your characters announce how they feel. That makes me feel angry! Hello, little man.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            dots: true,
+            lazyLoad: true,
+            autoplay: true, 
+            lazyLoadEager: 0,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                },
+                768: {
+                    items: 4,
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

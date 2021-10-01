@@ -1,0 +1,217 @@
+*:focus,
+a:focus,
+button:focus,
+a:hover,
+.btn:focus,
+.btn.focus {
+    outline: none !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+    color: none !important;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --claro-primary: #FF6600;
+    --claro-secondary: #0157ba;
+    --claro-link: #0084ff;
+    --claro-yellow: #FFFc00;
+    --claro-white: #FFF;
+    --claro-blueSky: #eaf7ff;
+}
+.op-header{
+    box-shadow: 0px 4px 8px rgb(0 0 0 / 15%);
+}
+.op-btnOrange {
+    font-size: 18px;
+    padding: 11px 54px;
+}
+
+.op-btnOrangeTwo {
+    font-size: 30px;
+    padding: 16px 107px;
+}
+
+.op-btnOrange,
+.op-btnOrangeTwo {
+
+    font-weight: normal;
+    border: 2px solid var(--claro-primary);
+    border-radius: 50px;
+    color: var(--claro-white);
+    background: linear-gradient(70deg, #FF6600, #FF7100, #FF7B00);
+}
+
+.op-btnOrange:hover {
+    background: transparent;
+    border: 2px solid var(--claro-primary);
+    color: var(--claro-primary);
+    box-shadow: 1px 8px 22px #00000021;
+}
+
+.op-btnOrangeTwo:hover {
+    background: transparent;
+    border: 2px solid var(--claro-white);
+    color: var(--claro-white);
+    box-shadow: 1px 8px 22px #00000021;
+}
+
+.op-bg-banner {
+    background-image: url('../img/hero.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.op-marginTop{
+    margin-top: 77px;    
+}
+.op-titleTop {
+    font-size: 28px;
+    color: var(--claro-secondary);
+    font-weight: 800;
+}
+
+.op-bg-yellow {
+    background-color: var(--claro-yellow);
+    padding: 7px 0;
+}
+
+.op-color-white {
+    color: var(--claro-white)
+}
+
+.op-color-yellow {
+    color: var(--claro-yellow)
+}
+
+.op-beforeTitle {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.op-titleMain {
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.op-afterTitle {
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.op-sections h3 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.op-sections p {
+    font-size: 24px;
+    line-height: 24px;
+    color: #404040;
+    font-weight: 200;
+}
+
+.op-sections div {
+    border-right: 2px solid var(--claro-blueSky);
+}
+
+.op-sections div:last-child {
+    border-right: 0px;
+}
+
+.op-link {
+    color: var(--claro-link);
+    font-weight: bold;
+}
+
+.op-textDescription {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.op-bg-blueSky {
+    background-color: var(--claro-blueSky);
+}
+.op-carouselStyle h4{
+    color: var(--claro-white);
+    font-size: 28px;
+    position: absolute;
+    bottom: 45px;
+    left: 30px;
+    margin: 0px;
+    z-index: 1;
+}
+.op-carouselStyle img{
+    border-radius:10px;
+    box-shadow: 1px 8px 22px #00000021;
+}
+@media screen and (max-width: 767px) {
+    
+    .op-titleTop {
+        font-size: 18px;
+    } 
+    .op-btnOrange {
+        font-size: 16px;
+        padding: 11px 32px;
+    }
+    .op-beforeTitle {
+        font-size: 22px; 
+    }
+    .op-beforeTitleM{
+        font-size: 20px; 
+    }
+    .op-titleMain {
+        font-size: 32px; 
+    }
+    .op-afterTitle {
+        font-size: 26px; 
+        padding-top: 14px;
+        padding-bottom: 30px;
+    }
+    .op-btnOrangeTwo {
+        padding: 16px 56px;
+    }
+    .op-sections div {
+        border-right: 0px;
+    }
+    .owl-theme .owl-dots{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .owl-theme .owl-dots .owl-dot.active span, 
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background: var(--claro-primary);
+        border: 2px solid var(--claro-primary);
+    }
+    .owl-theme .owl-dots .owl-dot span {
+        width: 18px;
+        height: 18px;
+        margin: 10px 9px;
+        border: 2px solid #576078;
+        background: transparent;
+        display: block; 
+        transition: opacity .2s ease;
+        border-radius: 30px;
+    }
+    .op-carouselStyle{ 
+        overflow-y: visible;
+    }
+    .op-bg-blueSky{
+        overflow-y: hidden;
+    }
+    .owl-carousel .owl-stage-outer{
+        overflow: visible;
+    }
+    .owl-stage .owl-item:nth-child(2){
+        opacity: 0 !important;
+    }
+    
+}
